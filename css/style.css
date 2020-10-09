@@ -1,0 +1,175 @@
+* {
+      padding : 0;
+      margin : 0;
+      box-sizing: border-box;
+   /*   border : 1px solid lightblue;*/
+      cursor : pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body { 
+      background : url("../images/fly.jpg") no-repeat;
+      background-attachment : scroll;
+      background-size : cover;
+      font-style : color="yellow";
+      margin : 1px 3px 3px 3px;
+      text-align : center;
+}
+
+#scrollup{
+      padding-top : 20px;
+      padding-bottom: 20px
+}
+
+.container {
+      padding : 20px;
+      margin : 20px 44px 10px 44px;
+      background-image : linear-gradient( rgba(255,255,255,0.8)-25%, rgba( 204, 255, 255, 0.8) );       
+      border-radius : 15px;
+      height : 100%;
+      text-align : center;
+}
+
+header {
+      margin : 5px 5px 15px 5px;
+      padding : 10px 20px 30px 20px;
+}
+
+.container header nav {
+      margin-top : 10px;
+      margin-bottom : 12px;
+      padding-top : 3px;
+      padding-bottom : 3px;
+}
+
+.container header nav  a:link {
+      background-color : white;
+      border : 2px solid #003380;
+      border-radius : 15px;
+      color :  #5a0038;
+      padding :  4px 8px 4px 8px;
+      margin-left : 1px;
+}
+
+container header nav  a:hover {
+      border-shadow : 5px 10px 18px #ccccff;
+}
+
+.container header nav a:active {
+      background-color : #003380;
+      border : 2px solid #003380;
+      padding :  4px 8px 4px 8px;
+      border-radius : 15px;
+      color :  yellow;
+}
+
+.container div section h3 {
+      font-family : "Times New Roman", Times, serif;
+      font-size : 26px;
+      padding : 3px 0px 3px 0px;
+      margin : 0px 100px 20px 100px;
+}
+
+#myinfo p, #Interest p {
+      text-indent : 10%;
+      padding : 0px 60px 5px 60px;
+      text-align : left;
+}
+
+a {
+      text-decoration : none;
+}
+
+.sansserif {
+      font-family: 'Open Sans', sans-serif;
+      font-size : 28px;
+      color : white;
+      text-shadow : 4px 4px 8px #ccccff;
+      padding-left : 10px;
+}
+
+.roboto {
+      font-family: 'Roboto', sans-serif;
+      font-size : 75px;
+      font-weight : bold;
+      text-align : center;
+}
+
+table {
+      margin-left : 30px;
+      padding-left : 20px;
+}
+      
+ul {
+      margin-left : 30px;
+      padding-left : 20px;
+}
+
+#contactme p {
+      text-align : center;
+}
+
+.showblock {
+      display : block;
+}
+/****       FOOTER         ****/
+
+footer p {
+      font :  bold 29px "Times New Roman", Times, serif;
+      color : #262626;
+}
+
+.fab {
+      font-size : 40px;
+      margin : 10px 10px 10px 10px;
+      padding-left : 20px;
+}
+
+.fa-instagram {
+      background-image : linear-gradient(#0066cc,#ff00ff,#ff0066,#ff9900);
+      border-radius : 10px;
+      color : white;
+      padding : 2px 5px 2px 5px;
+}
+
+.fa-facebook-square {
+      color : rgb(59, 91, 152);
+      font-size : 46px;
+}
+
+.fa-twitter {
+      color : #33ccff;
+      font-size : 46px;
+}
+
+.fa-linkedin{
+      color : #0099ff;
+      font-size : 46px;
+}
+
+/*       up arrow        */
+.fa-arrow-alt-circle-up {
+      scroll-behavior: smooth;
+      font-size : 35px;
+      float : right;
+}
+
+ 
+
+
+
+
+
+
+
+
+
